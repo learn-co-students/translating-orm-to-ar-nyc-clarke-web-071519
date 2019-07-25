@@ -1,6 +1,6 @@
 require "spec_helper"
 require "pry"
-
+ActiveRecord::Base
 describe "Dog" do
 
   let(:teddy) {Dog.new(name: "Teddy", breed: "cockapoo")}
